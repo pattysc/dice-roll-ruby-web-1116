@@ -5,5 +5,5 @@
 def roll
     # return rand(1..6)
     dice = [1, 2, 3, 4, 5, 6]
-    return dice[rand(1..6)]
+    return dice[rand(0..5)]
 end
